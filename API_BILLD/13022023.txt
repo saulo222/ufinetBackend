@@ -1,0 +1,23 @@
+f340ae53-4186-4086-a8ce-d889e2f83c65;Cannot create a DbSet for 'Customers' because this type is not included in the model for the context.-   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Collections.Generic.IEnumerable<TEntity>.GetEnumerator()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at PERSITENCE_REPOSITORY.Class.Repository.RepositoryBaseUnit`1.GetAll() in C:\Users\saulo\source\repos\fiGroupBack\PERSITENCE_REPOSITORY\Class\Repository\RepositoryBase.cs:line 86
+   at APLICATION_IMPLEMENTATION.Implementation.Customers.Queries.GetCustomersServices.Getall() in C:\Users\saulo\source\repos\fiGroupBack\APLICATION_IMPLEMENTATION\Implementation\Customers\Queries\GetCustomersServices.cs:line 35
+   at APP_TEST_WEELO_API_ADD_PROPERTY.CustomersController.Invoque() in C:\Users\saulo\source\repos\fiGroupBack\APIs_Ufinet\BillsController\Controllers\CustomersController.cs:line 50;;13/02/2023 3:07:25 p. m.;MoveNext;::1;;ERROR
+d07fabcf-da80-4cf9-9432-43575966fa0e;Cannot create a DbSet for 'Customers' because this type is not included in the model for the context.-   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Collections.Generic.IEnumerable<TEntity>.GetEnumerator()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at PERSITENCE_REPOSITORY.Class.Repository.RepositoryBaseUnit`1.GetAll() in C:\Users\saulo\source\repos\fiGroupBack\PERSITENCE_REPOSITORY\Class\Repository\RepositoryBase.cs:line 86
+   at APLICATION_IMPLEMENTATION.Implementation.Customers.Queries.GetCustomersServices.Getall() in C:\Users\saulo\source\repos\fiGroupBack\APLICATION_IMPLEMENTATION\Implementation\Customers\Queries\GetCustomersServices.cs:line 35
+   at APP_TEST_WEELO_API_ADD_PROPERTY.CustomersController.Invoque() in C:\Users\saulo\source\repos\fiGroupBack\APIs_Ufinet\BillsController\Controllers\CustomersController.cs:line 50;;13/02/2023 3:22:51 p. m.;MoveNext;::1;;ERROR
+c219abe1-a172-495d-a67f-5b5b7064522e;Cannot create a DbSet for 'Bills' because this type is not included in the model for the context.-   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Linq.IQueryable.get_Provider()
+   at Microsoft.EntityFrameworkCore.RelationalQueryableExtensions.FromSqlRaw[TEntity](DbSet`1 source, String sql, Object[] parameters)
+   at PERSITENCE_CORE.Users.MainContextGetBills.GetBill() in C:\Users\saulo\source\repos\fiGroupBack\PERSITENCE_CORE\Bills\Queries\MainContextGetBills.cs:line 37
+   at APLICATION_IMPLEMENTATION.Implementation.Customers.Queries.GetBillsServices.GetBill() in C:\Users\saulo\source\repos\fiGroupBack\APLICATION_IMPLEMENTATION\Implementation\Bills\Queries\GetBillsServices.cs:line 36
+   at APP_TEST_WEELO_API_ADD_PROPERTY.BillsController.Invoque() in C:\Users\saulo\source\repos\fiGroupBack\APIs_Ufinet\BillsController\Controllers\BillsController.cs:line 142;;13/02/2023 5:50:26 p. m.;MoveNext;::1;;ERROR

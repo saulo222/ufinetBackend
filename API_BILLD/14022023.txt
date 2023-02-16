@@ -1,0 +1,14 @@
+e9c1811e-76af-45e6-b178-e49854f5b7fe;Cannot create a DbSet for 'GetBills' because this type is not included in the model for the context.-   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Linq.IQueryable.get_Provider()
+   at Microsoft.EntityFrameworkCore.RelationalQueryableExtensions.FromSqlRaw[TEntity](DbSet`1 source, String sql, Object[] parameters)
+   at PERSITENCE_CORE.Users.MainContextGetBills.GetBill() in C:\Users\saulo\source\repos\fiGroupBack\PERSITENCE_CORE\Bills\Queries\MainContextGetBills.cs:line 38
+   at APLICATION_IMPLEMENTATION.Implementation.Customers.Queries.GetBillsServices.GetBill() in C:\Users\saulo\source\repos\fiGroupBack\APLICATION_IMPLEMENTATION\Implementation\Bills\Queries\GetBillsServices.cs:line 36
+   at APP_TEST_WEELO_API_ADD_PROPERTY.BillsController.Invoque() in C:\Users\saulo\source\repos\fiGroupBack\APIs_Ufinet\BillsController\Controllers\BillsController.cs:line 142;;14/02/2023 11:49:33 a. m.;MoveNext;::1;;ERROR
+3d570ce2-1773-4252-82f3-c47050aa2fde;Cannot create a DbSet for 'GetBills' because this type is not included in the model for the context.-   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Linq.IQueryable.get_Provider()
+   at Microsoft.EntityFrameworkCore.RelationalQueryableExtensions.FromSqlRaw[TEntity](DbSet`1 source, String sql, Object[] parameters)
+   at PERSITENCE_CORE.Users.MainContextGetBills.GetBill() in C:\Users\saulo\source\repos\fiGroupBack\PERSITENCE_CORE\Bills\Queries\MainContextGetBills.cs:line 38
+   at APLICATION_IMPLEMENTATION.Implementation.Customers.Queries.GetBillsServices.GetBill() in C:\Users\saulo\source\repos\fiGroupBack\APLICATION_IMPLEMENTATION\Implementation\Bills\Queries\GetBillsServices.cs:line 36
+   at APP_TEST_WEELO_API_ADD_PROPERTY.BillsController.Invoque() in C:\Users\saulo\source\repos\fiGroupBack\APIs_Ufinet\BillsController\Controllers\BillsController.cs:line 142;;14/02/2023 12:12:32 p. m.;MoveNext;::1;;ERROR

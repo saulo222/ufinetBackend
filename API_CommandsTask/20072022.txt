@@ -1,0 +1,6 @@
+6f8270a6-fbba-468c-b7a4-b64cec9b0c2c;The property 'Tasks.idTask' has a temporary value while attempting to change the entity's state to 'Deleted'. Either set a permanent value explicitly, or ensure that the database is configured to generate values for this property.-   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState oldState, EntityState newState, Boolean acceptChanges, Boolean modifyProperties)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.EntityEntry.set_State(EntityState value)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.Remove(TEntity entity)
+   at PERSITENCE_REPOSITORY.Class.Repository.RepositoryBaseUnit`1.Delete(Entity entity) in F:\Prueba\fiGroup\PERSITENCE_REPOSITORY\Class\Repository\RepositoryBase.cs:line 79
+   at APLICATION_IMPLEMENTATION.Implementation.GetTask.Commands.TaskServices.Delete(TaskDTO taskdto) in F:\Prueba\fiGroup\APLICATION_IMPLEMENTATION\Implementation\GetTask\Commands\TaskServices.cs:line 92
+   at APP_TEST_WEELO_API_ADD_PROPERTY.CommandsTaskController.delete(TaskDTO taskTDO) in F:\Prueba\fiGroup\API_CommandsTask\CommandsTask\Controllers\CommandsTask.cs:line 88;;20/07/2022 10:39:56 p. m.;MoveNext;::1;;ERROR

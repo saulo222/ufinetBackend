@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\APLICATION_AGGREGATES\APLICATION_AGGREGATES.csproj" />
+    <ProjectReference Include="..\DOMAIN_AGGREGATES\DOMAIN_AGGREGATES.csproj" />
+    <ProjectReference Include="..\INFRA_TOOLS_AGGREGATES\INFRA_TOOLS_AGGREGATES.csproj" />
+  </ItemGroup>
+
+</Project>
